@@ -1,0 +1,1073 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900");
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900");
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900");
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900");
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900");
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900");
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900");
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900");
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900");
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900");
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900");
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900");
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+  background-color: white;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type=search] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.8;
+}
+
+p {
+  color: #000000;
+  font-size: 2rem;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  font-size: 2rem;
+  color: white;
+}
+
+img,
+picture {
+  width: 100%;
+  display: block;
+}
+
+h1, h2, h3 {
+  font-family: "Lato", sans-serif;
+  margin: 2.5rem 0;
+  font-weight: 300;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.8rem;
+}
+
+h2 {
+  font-size: 3.4rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+h4 {
+  font-size: 2.6rem;
+}
+
+.texto-verde {
+  color: #71B100;
+}
+
+.linea {
+  width: 45%;
+  height: 3px;
+  background-color: #71B100;
+}
+
+.btn-amarillo, .btn-verde {
+  width: 100%;
+  padding: 2rem;
+  text-transform: uppercase;
+  border: none;
+}
+
+.btn-verde {
+  background-color: #71B100;
+  color: #FFFFFF;
+}
+
+.btn-amarillo {
+  background-color: #E08709;
+  color: #FFFFFF;
+}
+
+.header-secundario {
+  background-color: #333333;
+  position: relative;
+  width: 100%;
+  height: 13rem;
+}
+
+.contenedor {
+  width: 80%;
+  margin: auto;
+}
+
+/** Media Queries **/
+/** Media Queries **/
+.darkMode {
+  transition: 1s ease-in;
+  background-color: #262626;
+}
+.darkMode p, .darkMode h1, .darkMode h2, .darkMode h3, .darkMode h4, .darkMode h5 {
+  color: #FFFFFF;
+}
+.darkMode .departamento-icono img {
+  filter: invert(1);
+}
+.darkMode .formulario, .darkMode input, .darkMode label, .darkMode textarea {
+  background-color: #333333;
+}
+.darkMode input, .darkMode label, .darkMode textarea, .darkMode fieldset {
+  color: #E08709;
+}
+.darkMode .formulario fieldset {
+  background-color: #333333;
+}
+.darkMode .icono:hover {
+  background-color: #e1e1e1;
+  transition: 1 ease-in;
+}
+.darkMode .icono:hover p {
+  filter: invert(1);
+}
+
+/** Media Queries **/
+.header-principal {
+  position: relative;
+  background-image: url(../img/header.jpg);
+  width: 100%;
+  height: 80rem;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header-texto {
+  position: absolute;
+  top: 80%;
+  left: 5%;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.header-navegacion {
+  position: relative;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.header-navegacion h2, .header-navegacion span {
+  color: white;
+}
+.header-navegacion span {
+  font-weight: 700;
+}
+.header-navegacion img {
+  width: 30%;
+  height: 30%;
+  filter: invert(1);
+}
+.header-navegacion #menuHamburguesa {
+  display: none;
+}
+
+.header-navegacion_ul {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 50%;
+  gap: 5rem;
+}
+.header-navegacion_ul a {
+  cursor: pointer;
+  transition: 0.5s;
+}
+.header-navegacion_ul a:hover {
+  color: #71B100;
+}
+
+@media (max-width: 1440px) {
+  .header-navegacion {
+    width: 70%;
+    margin: auto;
+  }
+  .header-navegacion img {
+    margin: auto;
+    filter: invert(1);
+  }
+  .header-navegacion_ul {
+    width: 100%;
+  }
+}
+@media (max-width: 1024px) {
+  .header-navegacion {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+  .header-navegacion #darkMode {
+    filter: invert(1);
+    width: 50%;
+    display: block;
+  }
+  .header-navegacion_ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    width: 5rem;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.5s ease-in-out, opacity 0.5s linear;
+  }
+  .menu-mobile {
+    display: block;
+    width: 100%;
+    filter: invert(1);
+  }
+  .menu-mobile #menuHamburguesa {
+    display: block;
+    width: 10rem;
+    height: 10rem;
+  }
+  .header-secundario {
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+  }
+  .header-texto {
+    display: none;
+  }
+  .mostrar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    width: 5rem;
+    height: 100%;
+    gap: 5rem;
+    visibility: visible;
+    opacity: 1;
+  }
+}
+/** Media Queries **/
+.sobre-nosotros {
+  position: relative;
+}
+
+.sobre-nosotros_boxes {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5rem;
+}
+
+.sobre-nosotros_box {
+  padding: 5rem;
+  width: 100%;
+  height: 100%;
+}
+.sobre-nosotros_box img {
+  margin: auto;
+  width: 20rem;
+  height: 20rem;
+}
+.sobre-nosotros_box p {
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .sobre-nosotros_boxes {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+  }
+  .sobre-nosotros_box {
+    padding: 5rem;
+    width: 100%;
+    height: 100%;
+  }
+}
+/** Media Queries **/
+.departamentos-casas {
+  width: 70%;
+  height: 100%;
+  margin: auto;
+}
+
+.departamentos-casas_box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 5rem;
+  gap: 5rem;
+  transition: 1s;
+}
+.departamentos-casas_box .departamento-casas_completo:hover {
+  transform: scale(0.9);
+}
+.departamentos-casas_box .departamento-casas_completo:hover h3, .departamentos-casas_box .departamento-casas_completo:hover h4, .departamentos-casas_box .departamento-casas_completo:hover p, .departamentos-casas_box .departamento-casas_completo:hover .departamento-icono img {
+  color: #E08709;
+}
+
+.departamento-casas_completo {
+  width: 100%;
+  border: solid gray 0.1px;
+  padding: 2rem;
+}
+.departamento-casas_completo h3 {
+  font-weight: bold;
+}
+
+.departamento-icono {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 5rem;
+}
+.departamento-icono img {
+  width: 100%;
+}
+
+.departamento-texto {
+  text-align: center;
+}
+
+.departamento-icono-dormitorio, .departamento-icono-baño, .departamento-icono-estacionamiento {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.departamento-icono-dormitorio p, .departamento-icono-baño p, .departamento-icono-estacionamiento p {
+  color: #71B100;
+}
+
+button {
+  cursor: pointer;
+}
+
+@media (max-width: 1440px) {
+  .departamentos-casas {
+    width: 90%;
+    margin: auto;
+  }
+  .departamentos-casas_box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+  }
+}
+@media (max-width: 1024px) {
+  .departamentos-casas {
+    width: 90%;
+    margin: auto;
+  }
+  .departamentos-casas_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .departamento-casas_completo {
+    width: 100%;
+    border: solid gray 0.1px;
+    padding: 2rem;
+  }
+  .departamento-casas_completo h3 {
+    font-weight: bold;
+  }
+  .departamento-icono {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5rem;
+  }
+  .departamento-icono img {
+    width: 100%;
+  }
+  .departamento-texto {
+    text-align: center;
+  }
+  .departamento-icono-dormitorio, .departamento-icono-baño, .departamento-icono-estacionamiento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .departamento-icono-dormitorio p, .departamento-icono-baño p, .departamento-icono-estacionamiento p {
+    color: #71B100;
+  }
+}
+/** Media Queries **/
+.contactanos {
+  margin-top: 5rem;
+  height: 40rem;
+  background-image: url(../img/encuentra.jpg);
+  width: 100%;
+  background-position: center;
+  background-size: 100%;
+}
+
+.contactanos-texto {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  position: relative;
+}
+.contactanos-texto p, .contactanos-texto h2 {
+  color: #FFFFFF;
+  margin: 3rem;
+}
+.contactanos-texto button {
+  width: 30%;
+}
+
+@media (max-width: 1024px) {
+  .contactanos {
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/encuentra.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-size: cover;
+  }
+  .contactanos-texto {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    position: relative;
+  }
+  .contactanos-texto p, .contactanos-texto h2 {
+    color: #FFFFFF;
+    margin: 3rem;
+    text-align: center;
+  }
+  .contactanos-texto button {
+    margin-bottom: 5rem;
+    width: 90%;
+  }
+}
+/** Media Queries **/
+.testimonio-blog {
+  width: 90%;
+  height: 100%;
+  text-align: center;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.blog li {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  text-align: left;
+  gap: 2rem;
+  margin: 5rem;
+}
+.blog li h3 {
+  font-weight: 700;
+  text-align: left;
+}
+.blog li span {
+  color: #E08709;
+}
+.blog li img {
+  width: 100%;
+}
+
+.testimonio-box {
+  width: 100%;
+  height: 100%;
+}
+
+.testimonio-general {
+  background-color: #71B100;
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  border-radius: 30px;
+  margin-top: 5rem;
+  padding: 5rem;
+}
+.testimonio-general img {
+  width: 30%;
+  height: 30%;
+}
+.testimonio-general .testimonio-texto p span {
+  text-align: right;
+}
+
+@media (max-width: 1024px) {
+  .testimonio-blog {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .linea {
+    margin: auto;
+  }
+  .blog li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .blog li h3 {
+    text-align: center;
+  }
+  .blog li span {
+    color: #E08709;
+  }
+  .blog li img {
+    width: 100%;
+  }
+  .testimonio-box {
+    width: 100%;
+    height: 100%;
+  }
+  .testimonio-general {
+    background-color: #71B100;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    border-radius: 30px;
+    margin-top: 5rem;
+    padding: 5rem;
+  }
+  .testimonio-general img {
+    display: none;
+  }
+  .testimonio-general .testimonio-texto p span {
+    text-align: right;
+  }
+}
+/** Media Queries **/
+.footer-general {
+  background-color: #333333;
+  width: 100%;
+  height: 20rem;
+  padding: 5rem;
+}
+.footer-general a {
+  transition: 0.5s;
+}
+.footer-general a:hover {
+  color: #71B100;
+}
+.footer-general p {
+  text-align: center;
+  margin-top: 5rem;
+  padding: 0;
+  color: #FFFFFF;
+}
+
+.footer-conexiones {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width: 1024px) {
+  .footer-general {
+    height: 50rem;
+    margin-top: 5rem;
+    padding: 5rem;
+  }
+  .footer-conexiones {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 5rem;
+    padding: 0;
+  }
+}
+/** Media Queries **/
+.nosotros-pag {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  align-items: center;
+  gap: 5rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.sobre-nosotros-icon {
+  display: flex;
+  padding: 2rem;
+  gap: 5rem;
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  transition: 2s;
+}
+.sobre-nosotros-icon .icon-text:hover {
+  transform: scale(0.9);
+}
+.sobre-nosotros-icon .icon-text:hover h3 {
+  color: #E08709;
+}
+
+.icon-text {
+  padding: 2rem;
+  width: 100%;
+  text-align: center;
+}
+.icon-text h3 {
+  text-transform: uppercase;
+}
+.icon-text img {
+  width: 10rem;
+  height: 10rem;
+  margin: auto;
+}
+
+@media (max-width: 1024px) {
+  .nosotros-pag {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5rem;
+  }
+  .sobre-nosotros-icon {
+    display: flex;
+    flex-direction: column;
+    padding: 0rem;
+    gap: 5rem;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+  }
+  .icon-text {
+    padding: 2rem;
+    width: 100%;
+    text-align: center;
+  }
+  .icon-text h3 {
+    text-transform: uppercase;
+  }
+  .icon-text img {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+  }
+}
+/** Media Queries **/
+picture {
+  position: absolute;
+}
+
+.formulario {
+  position: relative;
+  width: 80%;
+  margin: auto;
+  margin-top: 50rem;
+  background-color: #FFFFFF;
+  padding: 2rem;
+  margin-bottom: 5rem;
+}
+.formulario fieldset {
+  background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  padding: 2rem;
+}
+.formulario label {
+  width: 100%;
+  margin-top: 2rem;
+}
+.formulario input, .formulario textarea {
+  width: 100%;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border: solid #e1e1e1 0.5px;
+  border-radius: 20px;
+  resize: none;
+}
+.formulario #opciones {
+  background-color: #e1e1e1;
+  color: #71B100;
+  width: 100%;
+  border-radius: 20px;
+  padding: 1rem;
+}
+.formulario .btn_contacto {
+  margin-top: 5rem;
+}
+.formulario .contactar-forma {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  text-align: center;
+  justify-content: space-around;
+}
+.formulario .contactar-forma label {
+  margin: 0;
+}
+.formulario .contactar-forma #contactar-telefono, .formulario .contactar-forma #contactar-Email {
+  margin: auto;
+}
+
+@media (max-width: 1024px) {
+  .formulario {
+    width: 80%;
+    margin-top: 15rem;
+    padding: 1rem;
+    margin-bottom: 5rem;
+  }
+  .formulario fieldset {
+    width: 90%;
+    padding: 2rem;
+    margin: 2rem;
+  }
+}
+@media (max-width: 1440px) {
+  .formulario {
+    width: 90%;
+    margin-top: 20rem;
+    padding: 1rem;
+    margin-bottom: 5rem;
+    border-radius: 20px;
+  }
+  .formulario fieldset {
+    border: solid #e1e1e1 0.5px;
+    border-radius: 20px;
+    width: 90%;
+    padding: 2rem;
+    margin: auto;
+  }
+  .formulario #opciones {
+    background-color: #e1e1e1;
+    color: #71B100;
+    width: 100%;
+    border: solid #e1e1e1 0.5px;
+    border-radius: 20px;
+    padding: 1.2rem;
+  }
+}
